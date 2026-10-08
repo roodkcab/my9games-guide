@@ -6,3 +6,5 @@
 img { height: auto; }
 table { display: block; overflow-x: auto; }
 figure figcaption { font-size: 14px; color: #666; text-align: center; }
+.site-nav .page-link { white-space: nowrap; }
+@media screen and (min-width: 600px) { .site-nav .page-link:not(:last-child) { margin-right: 14px; } .site-nav { line-height: 32px; } }
