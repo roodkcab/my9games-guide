@@ -1,0 +1,21 @@
+title: My9Games Guide
+description: >-
+  How to use my9games.cc: make a my 9 games grid, import your Steam library,
+  build a tier list and ask Claude or ChatGPT to make one for you.
+url: https://roodkcab.github.io
+baseurl: /my9games-guide
+lang: en
+theme: minima
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
